@@ -12,16 +12,16 @@ export const SpecialSection = () => {
       </div>
       <OfferCard
         title={{
-          label: 'Air Jordan edição de colecionador',
+          label: 'Air Jordan edição ilimitada, calçada pelo próprio Michael Jordan!',
           style: 'text-darkGray2',
         }}
         subtitle={{
-          label: 'Oferta especial',
+          label: 'Oferta imperdível!!!',
           style: 'text-primary',
         }}
         description={{
           label:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
+            'Sapato calçado pelo jogador no jogo dos Bulls vs Laker na final da NBA, onde com este incrível sapato e suas habilidades diferenciadas ele conseguiu se tornar o MVP do jogo levando o time a vitória naquele dia conquistando o título da NBA contra seu maior rival.',
           style: 'w-[590px]',
         }}
         button={{
