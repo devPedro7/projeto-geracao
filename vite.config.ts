@@ -13,7 +13,7 @@ export default defineConfig({
       name: 'custom-start-message',
       configureServer(server) {
         server.httpServer?.once('listening', () => {
-          console.log('Starter project is running 🚀')
+          console.log('Projeto iniciado!')
         })
       },
     },

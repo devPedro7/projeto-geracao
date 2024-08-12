@@ -38,7 +38,7 @@ const Search: React.FC = () => {
     <form onSubmit={handleSearchSubmit} className="relative w-full md:flex-1">
       <input
         type="text"
-        placeholder="Pesquisar produto!
+        placeholder="Pesquisar produto"
         value={localQuery}
         onChange={handleSearchChange}
         onKeyDown={handleKeyPress}
