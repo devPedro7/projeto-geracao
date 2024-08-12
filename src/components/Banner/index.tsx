@@ -26,15 +26,15 @@ const Banner: React.FC<IBanner> = ({ image }) => {
         }}
         description={{
           label:
-            'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
-          style: 'w-[400px]',
+            'Calçados das marcas: Addidas, Nike e Puma em promoção em nosso estoque!',
+          style: 'w-[470px]',
         }}
         button={{
           label: 'Ver os descontos!',
           style:
             'bg-primary font-bold w-48 h-10 text-white hover:bg-tertiary ease-in transition-all duration-300',
         }}
-        className="flex flex-col w-1/2 h-80"
+        className="flex flex-col w-1/2 h-83"
       />
       <div className="flex w-1/2">
         <motion.img
