@@ -7,7 +7,7 @@ const Discount: React.FC<IDiscount> = ({ discountOffer, className }) => {
     <span
       className={`flex items-center justify-center bg-productOff text-darkGray2 font-bold rounded-full mb-4 w-24 h-8 ${className}`}
     >
-      {discountOffer}% OFF
+      {discountOffer}% OFF!!!
     </span>
   )
 }

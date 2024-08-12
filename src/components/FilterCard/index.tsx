@@ -82,7 +82,7 @@ const FilterCard: React.FC = () => {
           </div>
           <div className="flex flex-col gap-5">
             <FilterGroup
-              title="Marca"
+              title="Marcas"
               inputType="checkbox"
               options={productBrandOptions}
               onChange={(values) => handleFilterChange('brand', values)}

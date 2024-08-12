@@ -19,12 +19,12 @@ export const CollectionSection = () => {
   return (
     <div className="flex flex-col items-center justify-center px-24 py-10 md:px-32">
       <Section
-        title="Coleções em destaque"
+        title="Coleções em vitrine"
         titleAlign="text-left"
         className="flex gap-4"
       >
         <FeaturedCard
-          title="Novo drop Maximus"
+          title="Novo drop Maximus Supreme"
           discount={30}
           image={{
             src: dropSupreme,
@@ -40,7 +40,7 @@ export const CollectionSection = () => {
           }}
         />
         <FeaturedCard
-          title="Novo Beats Bass"
+          title="Novo Fone JBL"
           discount={30}
           image={{
             src: dropBass,
@@ -56,8 +56,8 @@ export const CollectionSection = () => {
         <CategoryCard title="Camisetas" icon={PiTShirtThin} />
         <CategoryCard title="Calças" icon={PiPantsThin} />
         <CategoryCard title="Bonés" icon={PiBaseballCapThin} />
-        <CategoryCard title="Headphones" icon={PiHeadphonesThin} />
-        <CategoryCard title="Tênis" icon={PiSneakerThin} />
+        <CategoryCard title="Smartphones" icon={PiHeadphonesThin} />
+        <CategoryCard title="Calçados" icon={PiSneakerThin} />
       </Section>
     </div>
   )
