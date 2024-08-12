@@ -17,10 +17,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col gap-5 w-[400px]">
           <Logo image={logoFooter} description="Logo" />
           <p className="font-normal text-white text-[16px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor, 
-            sit amet consectetur adipisicing elit. Incidunt necessitatibus o
-            ptio quod ducimus nemo provident nostrum ullam molestias molestiae facilis consequatur nesciunt voluptas officia suscipit consequuntur veritatis, consectetur tempora saepe?
+          Bem-vindo à nossa loja de calçados, onde conforto e estilo se encontram! Oferecemos uma ampla variedade de sapatos para todas as ocasiões, desde elegantes saltos altos até tênis confortáveis para o dia a dia. Nossa missão é proporcionar a melhor experiência de compra, com produtos de alta qualidade que atendem às suas necessidades e preferências. Explore nossa coleção e descubra o par perfeito que combina com seu estilo e personalidade. Visite-nos hoje e dê o primeiro passo para elevar seu guarda-roupa!
           </p>
           <div className="flex gap-5 text-white">
             <a
@@ -66,7 +63,7 @@ const Footer: React.FC = () => {
             title="Contato"
             items={[
               'Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161',
-              '(85) 3051-3411',
+              '(85) 3051-3411  &&  Av. Barão de Studart, 1980 - Aldeota, Fortaleza - CE, 60120-001',
             ]}
             className="w-56"
           />
@@ -75,7 +72,7 @@ const Footer: React.FC = () => {
       <div className="flex flex-col items-center justify-center gap-5 pt-10 pb-5">
         <span className="border border-darkGray3 border-solid w-full bottom-[128px]"></span>
         <p className="font-normal text-[13px] text-white">
-          &copy; {Year()} Digital College
+          &copy; {Year()} Digital College - Geração Tech IEL
         </p>
       </div>
     </footer>
