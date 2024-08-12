@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
             title="Contato"
             items={[
               'Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161',
-              '(85) 3051-3411  &&  Av. Barão de Studart, 1980 - Aldeota, Fortaleza - CE, 60120-001',
+              '(85) 3051-3411',  'Av. Barão de Studart, 1980 - Aldeota, Fortaleza - CE, 60120-001',
             ]}
             className="w-56"
           />
